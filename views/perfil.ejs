@@ -1,5 +1,141 @@
-"Prueba 1"
-"Prueba 76"
-"Prueba 16"
-"Prueba 156"
-"Prueba 14"
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Vacunación</title>
+    <link rel="stylesheet" href="/css/perfil.css">
+    <!-- Start of  Zendesk Widget script -->
+    <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=22330404-1a48-48fc-9661-aa730165bb5e"> </script>
+    <!-- End of  Zendesk Widget script -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+
+<body>
+    <%- include("layouts/navbar") %>  
+
+    <div class="box" style="margin-top: 20px">
+        <div class="box__col">
+            <div class="box__container">
+                <div class="left__container">
+                    <img src="/images/user.png" alt="">
+                    
+                </div>
+                <div class="right__container">
+                    <div class="info__container">
+                        <h3>Información</h3>
+                        <div class="info__data">
+                            
+                        </div>
+                    </div>
+                    <div class="vacunation__container">
+                        <h3>Datos de vacunación</h3>
+                        <div class="vacunation__data">
+                        </div>
+                    </div>
+                    <div class="important__container">
+                        <h5>Importante</h5>
+                        <p>Revisa los horarios de inmovilización social obligatoria que debes respetar del 20 de setiembre al 3 de octubre de 2021 según el nivel de alerta de la región donde vives.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="box__col">
+            <div class="calendar">
+                <div class="calendar__month">
+                    <i class="fas fa-angle-left prev"></i>
+                    <div class="calendar__date">
+                        <h1>Octubre</h1>
+                        <p>Viernes, 29 de Octubre de 2021</p>
+                    </div>
+                    <i class="fas fa-angle-right next"></i>
+                </div>
+                <div class="calendar__weeks">
+                    <div>Dom</div>
+                    <div>Lun</div>
+                    <div>Mar</div>
+                    <div>Mie</div>
+                    <div>Jue</div>
+                    <div>Vie</div>
+                    <div>Sab</div>
+                </div>
+                <div class="calendar__days">
+                    <div class="prev-date">26</div>
+                    <div class="prev-date">27</div>
+                    <div class="prev-date">28</div>
+                    <div class="prev-date">29</div>
+                    <div class="prev-date">30</div>
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                    <div>5</div>
+                    <div>6</div>
+                    <div>7</div>
+                    <div>8</div>
+                    <div>9</div>
+                    <div>10</div>
+                    <div>11</div>
+                    <div>12</div>
+                    <div>13</div>
+                    <div>14</div>
+                    <div>15</div>
+                    <div>16</div>
+                    <div>17</div>
+                    <div>18</div>
+                    <div>19</div>
+                    <div>20</div>
+                    <div>21</div>
+                    <div>22</div>
+                    <div>23</div>
+                    <div>24</div>
+                    <div>25</div>
+                    <div>26</div>
+                    <div>27</div>
+                    <div>28</div>
+                    <div class="today">29</div>
+                    <div>30</div>
+                    <div>31</div>
+                    <div class="next-date">1</div>
+                    <div class="next-date">2</div>
+                    <div class="next-date">3</div>
+                    <div class="next-date">4</div>
+                    <div class="next-date">5</div>
+                    <div class="next-date">6</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="questions">
+        <h3>Preguntas mas comunes</h3>
+        <div class="common__questions">
+            <ul>
+                <a href="https://www.gob.pe/13223"><li>Efectos secundarios sobre la Covid-19</li> </a>
+                <a href="https://www.gob.pe/13435-llenar-formato-de-consentimiento-informado-para-vacunarte-contra-la-covid-19"><li>Formato de Consentimiento Informado para vacunarte contra la COVID-19</li> </a>
+                <a href="https://www.gob.pe/13314-acceder-a-tu-carnet-de-vacunacion"><li>Verificar tu carnet de vacunación</li> </a>
+            </ul>
+            <ul>
+                <a href="https://www.gob.pe/12188-indicaciones-para-el-transporte-aereo-durante-el-estado-de-emergencia-si-vas-a-ingresar-al-peru"><li>Si vas a ingresar a Perú y te vacunaste</li> </a>
+                <a href="https://www.gob.pe/13890-registrar-vacuna-contra-la-covid-19-aplicada-en-el-extranjero"><li>Registrar vacuna contra la COVID-19 aplicada en el extranjero</li> </a>
+            </ul>
+        </div>
+    </div>
+    <script src="/js/data/Cita.js"></script>
+      <script src="/js/controllers/CitaManager.js"></script>
+    <script src="/js/data/CentroVacunacion.js"></script>
+      <script src="/js/controllers/CentroVacunacionManager.js"></script>
+    <script src="/js/data/Vacuna.js"></script>
+      <script src="/js/controllers/VacunaManager.js"></script>
+    <script src="/js/data/Usuario.js"></script>
+      <script src="/js/controllers/UsuarioManager.js"></script>
+    <script src="/js/perfil.js"></script>
+      
+    <%- include("layouts/footer") %>
+</body>
+
+</html>
+
