@@ -125,7 +125,6 @@ app.get('/programador' ,(req, res) => {
 });
 //Historial clínico Persoanl GET
 
-
 app.listen(PORT , () => {
     console.log(`Servidor funcionando en puerto ${PORT}`)
 })
